@@ -1,32 +1,17 @@
 # minicalc
+**minicalc** is a terminal calculator built on sh, which makes it able to run on any UNIX-based operating system like Linux, BSD, and MacOS. It was built to be an alternative to bc as a GNU-free, zero-dependency and fully offline usable application. Its size comes down to just 386 bytes, making it lightweight enough to be stored in basically any storage media.
 
-**- Features**
- 
-Ability to calculate four basic mathematical operations: Addition, subtraction, multiplication and division.
- 
-Ability to run on basically anything except Windows or DOS.
- 
-**- How to run**
- 
-To run the app, you just have to make it executable and run it as shown below:
- 
-chmod +x calc.sh
- 
+Usage is also pretty straightforward. Like you would do with AppImages or any shell script, you have to make it executable on initial setup:
+
+chmod +x ./calc.sh
+
+And run it by doing:
+
 ./calc.sh
- 
-**- How to use**
- 
-Simply type out your desired operation to get its equation.
- 
-help: Displays help message if you ever need it.
- 
-exit: Exit the app.
- 
-**- Credits:**
- 
-Hasan Şafak Özcan - Lead Developer
- 
-Hasan Şafak Özcan - Lead Designer
- 
-Hasan Şafak Özcan - Lead Developer
- 
+
+The app allows you to perform basic operations like addition, subtraction, multiplication, division, exponention and remainder calculations. It also supports trigonometry, logarithm and truncation which are operations built into awk.
+
+You can type "help" to get a help message on the application and "exit" to quit the application.
+
+Credits:
+Hasan Şafak Özcan (lead designer, developer and publisher)
