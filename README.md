@@ -1,7 +1,5 @@
 # minicalc
- 
-A 386-byte minimal calculator app made for UNIX-based operating systems.
- 
+
 **- Features**
  
 Ability to calculate four basic mathematical operations: Addition, subtraction, multiplication and division.
